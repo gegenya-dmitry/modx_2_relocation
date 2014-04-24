@@ -56,7 +56,7 @@ if ($_GET['action']=="backup") {
 		shell_exec('rm '.$configFile); //удаляем файл конфигурации
 	}	
 ?>
-	<a href="<?php echo($stbkname) ?>.tar.gz">Скачать архив <?php echo($stbkname) ?></a>
+	<a href="<?php echo($stbkname) ?>">Скачать архив <?php echo($stbkname) ?></a>
 <?php
 
 }
